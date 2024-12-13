@@ -1,0 +1,49 @@
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p, input, button {
+    font-size: 15px;
+  }
+
+  .header,
+  .navigation,
+  .hero,
+  .popular,
+  .creative,
+  .custom,
+  .ideas,
+  .collabs,
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .logo {
+    height: 16px;
+  }
+
+  .phone-button {
+    display: none;
+  }
+
+  .footer-about {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .indicator {
+    background: white;
+  }
+}
